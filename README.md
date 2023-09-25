@@ -11,6 +11,7 @@ Grab your toothbrush with your right hand. Grab the toothpaste with your left ha
 2 Two Katas
 
 2.1     Check test code.
+
 2.2     Check test code.
 
 3 Give your thoughts on TDD
