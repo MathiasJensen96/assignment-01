@@ -2,8 +2,12 @@ package org.example;
 
 public class Katas {
 
-    public int compare(int n1, int n2) {
-        if (n1 > n2) return 1;
-        return -1;
+
+    public double fahrenheitToCelsius(double i) {
+        return (i-32)/1.80;
+    }
+
+    public double celsiusToFahrenheit(double v) {
+        return (v*1.80) +32;
     }
 }
