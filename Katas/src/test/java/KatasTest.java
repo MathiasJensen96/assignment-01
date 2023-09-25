@@ -3,14 +3,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class KatasTest {
-
-//    @Test
-//    public void compare(){
-//        Katas katasTest = new Katas();
-//        int value = katasTest.compare(4,2);
-//        Assert.assertEquals(1, value);
-//    }
-
     @Test
     public void fahrenheitToCelsiusTest() {
         Katas katas = new Katas();
@@ -23,5 +15,12 @@ public class KatasTest {
         Katas katas = new Katas();
         double fahrenheit = katas.celsiusToFahrenheit(37.8);
         Assert.assertEquals(100, fahrenheit, 1);
+    }
+
+    @Test
+    public void romanNumeralsTest() {
+        Katas katas = new Katas();
+        String roman = katas.convertToRoman(2);
+        Assert.assertEquals("II", roman);
     }
 }
